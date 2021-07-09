@@ -10,16 +10,6 @@ import com.fasterxml.jackson.databind.ser.ContextualSerializer;
 import java.io.IOException;
 import java.util.Objects;
 
-/** 
- * @ClassName:SensitiveInfoSerialize 
- * @Function: TODO ADD FUNCTION
- * @Reason:   TODO ADD REASON
- * @Date:     2018年11月5日 下午2:53:48 
- * @author   huoliang
- * @version   
- * @since    JDK 1.8
- * @see       
- */
 public class SensitiveInfoSerialize extends JsonSerializer<String> implements ContextualSerializer {
 
     private SensitiveType type;

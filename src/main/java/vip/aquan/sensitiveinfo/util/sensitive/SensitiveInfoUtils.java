@@ -7,15 +7,6 @@ import org.springframework.beans.BeanUtils;
 
 import java.lang.reflect.Field;
 
-/**
- * @author huoliang
- * @ClassName:SensitiveInfoUtils
- * @Function: TODO ADD FUNCTION
- * @Reason: TODO ADD REASON
- * @Date: 2018年11月5日 下午2:57:38
- * @see
- * @since JDK 1.8
- */
 public class SensitiveInfoUtils {
     private static final Logger log = LoggerFactory.getLogger(SensitiveInfoUtils.class);
 
